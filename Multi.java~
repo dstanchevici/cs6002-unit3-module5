@@ -1,0 +1,21 @@
+
+public class Multi {
+
+    public static void main (String[] argv) 
+    {
+	// Initialization
+	int[][] A = {
+	    {12, 1, 14, 7},
+	    {13, 8, 11, 2},
+	    {3, 10, 5, 16},
+	    {6, 15, 4, 9}
+	};
+
+	rowMax (A);
+	columnMax (A);
+	diagonalMax (A);
+    }
+
+    // WRITE YOUR CODE HERE
+
+}
