@@ -1,0 +1,17 @@
+// Unit 3, Module 5
+
+public class FunctionExample {
+
+    public static void main (String[] argv)
+    {
+	int x=1, y=2;
+
+	int w = add (incr(x), incr(y));
+	System.out.println (w);
+    }
+
+    static int incr (int a){
+	return a+1;
+    }
+
+}
