@@ -1,0 +1,20 @@
+
+public class MyFunctionExample {
+
+    public static void main (String[] argv)
+    {
+	// A telestich
+	String[] lines = {
+	    "Stands so high",
+	    "Huge hooves too",
+	    "Waits for",
+	    "Harness and reins",
+	    "Eager to leave"
+	};
+
+	// Extract the last letter of each string and join those letters.
+	System.out.println ("Telestich: " + /* WRITE YOUR CODE HERE */);
+    }
+
+
+}
