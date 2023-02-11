@@ -17,8 +17,9 @@ public class MergeRange {
 	int[] A3 = {1, 2, 5, 7, 9, 4, 6, 8, 10}; 
 	mergeRange (A3, 2, 5, 7);
 	System.out.println (Arrays.toString(A3));
-    }
 
+    }
+    
     static void mergeRange (int[] data, int L, int R, int E)
     {
 	// 1. Create the merge space:
