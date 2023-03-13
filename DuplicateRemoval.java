@@ -14,7 +14,8 @@ public class DuplicateRemoval {
 	ArrayList<Integer> C = new ArrayList<> ();
 
 	for (int i=0; i < A.length - 1; i++) {
-	    for (int j=i+1; j < A.length; j++) {
+	    //for (int j=i+1; j < A.length; j++) { // Mistake corrected on March 13, 2023
+	    for (int j=1; j < A.length; j++) {
 		if ( (A[i] == A[j]) && (!C.contains(A[i])) ) {
 		    C.add (A[i]);
 		    break;
